@@ -31,7 +31,7 @@ Logo da tela de inicio apresentada na primeira imagem o usuario realiza uma cons
 - Imagem da crypto moeda buscada 
 
 
-<img src="./cryptosapi2.png" alt="img cryptos api" width='100%' height="200px" style='object-fit: contain; margin: 40px auto; border-radius: 15px;'>
+<img src="./cryptosapi2.png" alt="img cryptos api" width='50%' height="200px" style='object-fit: contain; margin: 40px auto; border-radius: 15px;'>
 
 
 Data de Conclusão: 25/08/2023 - Projeto realizado em menos de 24hs para treinamento de habilidades adquiridas.
