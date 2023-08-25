@@ -10,10 +10,10 @@ export function App() {
   return (
     <>
     <GlobalStyled/>
-      <AppCtn>
         <HeadingCtn>
           <h1>CRIPTOS-API</h1>
         </HeadingCtn>
+        <AppCtn>
         <ImgCtn>
           <img src={criptoImg} alt={'img criptos'}/>
         </ImgCtn>
