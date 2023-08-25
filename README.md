@@ -2,7 +2,7 @@
  [DEPLOY CRYPTOSAPI](https://cryptosapi.surge.sh/)
 
 
-<img src="./cryptosapi.png" alt="img cryptos api" width='100%' height="200px" style='object-fit: contain; '>
+<img src="./cryptosapi.png" alt="img cryptos api" width='90%' height="200px" style='object-fit: contain; '>
 
 ## OVERVIEW
 Api frontend para consulta em tempo real da cotação das 20 principais cryptocoins do mundo em diferentes moedas do mundo a partir do consumo da api [CRYPTO COMPARE](https://www.cryptocompare.com/) em um front-end construido con react e styled-components sem nenhuma utilização de frameworks para estilização e seguindo boas praticas para um clean code.
@@ -31,7 +31,7 @@ Logo da tela de inicio apresentada na primeira imagem o usuario realiza uma cons
 - Imagem da crypto moeda buscada 
 
 
-<img src="./cryptosapi2.png" alt="img cryptos api" width='50%' height="200px" style='object-fit: contain; margin: 40px auto; border-radius: 15px;'>
+<img src="./cryptosapi2.png" alt="img cryptos api" width='50%' height="200px" style='object-fit: cover; margin: 40px auto; border-radius: 15px;'>
 
 
 Data de Conclusão: 25/08/2023 - Projeto realizado em menos de 24hs para treinamento de habilidades adquiridas.
