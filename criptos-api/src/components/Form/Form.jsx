@@ -3,7 +3,7 @@ import useSelectCripto from '../../hooks/useSelectCripto'
 import { FormCtn } from './styledForm'
 import {coins} from '../../data/coins'
 
-export function Form() {
+export function Form({setMoeda}) {
   const [criptos , setCriptos ] = useState([])
   const [error , setError ] = useState(false)
 
@@ -34,6 +34,8 @@ export function Form() {
        setError(true)
       return
     }
+    setError(false)
+    setMoeda({cash, crypto})
   }
 
   return (
