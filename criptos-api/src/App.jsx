@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { GlobalStyled } from './globals/globalStyled'
 import {AppCtn, HeadingCtn, ImgCtn, TextCtn} from './globals/styledContainers'
 import criptoImg from './assets/img/criptoImg.png'
-import { Form } from './components/Form'
+import { Form } from './components/Form/Form'
 
 
 export function App() {
@@ -14,13 +14,14 @@ export function App() {
           <h1>CRIPTOS-API</h1>
         </HeadingCtn>
         <AppCtn>
-        <ImgCtn>
-          <img src={criptoImg} alt={'img criptos'}/>
-        </ImgCtn>
+       
         <TextCtn>
           <Form/>
         </TextCtn>
-      </AppCtn>
+        <ImgCtn>
+        <img src={criptoImg} alt={'img criptos'}/>
+      </ImgCtn>
+        </AppCtn>
     </>
   )
 }
