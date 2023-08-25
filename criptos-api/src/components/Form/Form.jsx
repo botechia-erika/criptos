@@ -12,7 +12,7 @@ export function Form({setMoeda}) {
 
   useEffect(()=>{
     const consultarApi = async()=>{
-      const url = "https://min-api.cryptocompare.com/data/top/mktcapfull?limit=10&tsym=USD"
+      const url = "https://min-api.cryptocompare.com/data/top/mktcapfull?limit=20&tsym=USD"
       const answer = await fetch(url)
       const result = await answer.json()
       const arrayCriptos = result.Data.map((cripto) =>{

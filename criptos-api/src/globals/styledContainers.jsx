@@ -27,7 +27,7 @@ export const ImgCtn = styled.div`
 display: inline-block;
 img{max-width: 400px;
 width: 80%;
-margin: 100px auto 0 auto;
+margin: 10px auto 0 auto;
 display: block;
 }
 `
